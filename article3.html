@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentingnya HTML - Portfolio Kezia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-container">
+            <a href="index.html" class="logo">Kezia's Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container">
+        <a href="blog.html" class="back-link fade-in">← Kembali ke Blog</a>
+        
+        <article class="article-content fade-in">
+            <img src="Image&vid/HTML.jpeg" alt="HTML Code Editor" class="article-featured" loading="lazy">
+            
+            <div class="article-meta">
+                <span class="post-date">20 Maret 2026</span>
+            </div>
+            
+            <h1>Pentingnya HTML dalam Web Development</h1>
+            
+            <p>
+                Baru saja di kuliah semester 4, saya mempelajari dan menerapkan HTML untuk membuat website personal ini 
+                <strong>100% menggunakan HTML murni</strong> (sebelum ditingkatkan dengan CSS & JS). 
+                Tidak ada framework atau library eksternal – pure HTML dengan styling HTML attributes dan layout table.
+            </p>
+            
+            <p>
+                Pengalaman pertama ini membuka mata saya betapa powerful-nya HTML sebagai pondasi web. 
+                Setiap elemen di homepage ini dibuat manual pakai tag HTML sederhana.
+            </p>
+            
+            <h2 style="color: var(--teal-primary); margin: 2rem 0 1rem 0;">Tag HTML yang Dipakai di Website Ini:</h2>
+            
+            <table class="fade-in" style="width: 100%; border-collapse: collapse; margin: 1rem 0; box-shadow: var(--shadow);">
+                <thead>
+                    <tr style="background: var(--accent-green);">
+                        <th style="padding: 1rem; border: 1px solid var(--teal-secondary); text-align: left;">Tag</th>
+                        <th style="padding: 1rem; border: 1px solid var(--teal-secondary); text-align: left;">Penggunaan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 1rem; border: 1px solid var(--teal-secondary);"><code><table>, <tr>, <td></code></td>
+                        <td style="padding: 1rem; border: 1px solid var(--teal-secondary);">Layout keseluruhan (100% table-based)</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1rem; border: 1px solid var(--teal-secondary);"><code><font>, <b></code></td>
+                        <td style="padding: 1rem; border: 1px solid var(--teal-secondary);">Styling teks & bold</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1rem; border: 1px solid var(--teal-secondary);"><code><a href></code></td>
+                        <td style="padding: 1rem; border: 1px solid var(--teal-secondary);">Semua link navigasi</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1rem; border: 1px solid var(--teal-secondary);"><code><img></code></td>
+                        <td style="padding: 1rem; border: 1px solid var(--teal-secondary);">Gambar artikel & profil</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>
+                Menggunakan 100% HTML membuat website ini ringan, cepat loading, dan kompatibel semua browser. 
+                Saya belajar bahwa simplicity HTML lebih powerful daripada over-engineering. 
+                Project ini bukti praktik langsung dari kuliah!
+            </p>
+        </article>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
